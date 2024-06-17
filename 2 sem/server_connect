@@ -1,0 +1,6 @@
+ssh -p 52960 falt202331@remote.vdi.mipt.ru
+sftp -P 52960 falt202331@remote.vdi.mipt.ru
+
+
+номер порта: 52000 + порядковый номер (31)
+порт Карпова: 51000

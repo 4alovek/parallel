@@ -1,0 +1,12 @@
+Не надо проверок на ошибки:
+int MPI_Initialized(int *flag)
+int MPI_Abort(MPI_Comm comm, int errcode)
+int MPI_Finalize(void)
+
+Работаем в группе MPI_COMM_WORLD
+Желательно написать один макрос для
+if(MPI_Init(...) != MPI_SUCCESS)
+{
+	...
+	MPI_Abort();
+}

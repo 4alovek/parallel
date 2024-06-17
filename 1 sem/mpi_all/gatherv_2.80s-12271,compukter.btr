@@ -1,0 +1,6 @@
+
+gatherv_2:12271 terminated with signal 11 at PC=562212ad5b3a SP=7ffd222024d0.  Backtrace:
+./gatherv_2(+0x1b3a)[0x562212ad5b3a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7fe9cb029d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7fe9cb029e40]
+./gatherv_2(+0x1325)[0x562212ad5325]

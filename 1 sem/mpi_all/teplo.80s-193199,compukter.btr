@@ -1,0 +1,17 @@
+
+teplo:193199 terminated with signal 6 at PC=7f3f27a969fc SP=7ffd524ff110.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f3f27a969fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f3f27a42476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f3f27a287f3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x89676)[0x7f3f27a89676]
+/lib/x86_64-linux-gnu/libc.so.6(+0xa0cfc)[0x7f3f27aa0cfc]
+/lib/x86_64-linux-gnu/libc.so.6(+0xa2e70)[0x7f3f27aa2e70]
+/lib/x86_64-linux-gnu/libc.so.6(free+0x73)[0x7f3f27aa5453]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x223d36)[0x7f3f28423d36]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x1d79d1)[0x7f3f283d79d1]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x21a7c3)[0x7f3f2841a7c3]
+/lib/x86_64-linux-gnu/libmpich.so.12(MPI_Reduce+0x559)[0x7f3f28293a09]
+./teplo(+0x1a7c)[0x55a168d44a7c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f3f27a29d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f3f27a29e40]
+./teplo(+0x13a5)[0x55a168d443a5]
